@@ -1,5 +1,5 @@
 body{
-    background-image: url("img/alien\ car.gif");
+    background-image: url("img/dancing\ barbie\ dogs.gif");
     color :rgb(250, 250, 250);
     text-align: center;
     font-size: larger;
@@ -36,7 +36,7 @@ div.parent{
 }
 
 div{
-    background-image: url("img/smol\ zoi\ zoi\ zoi.jpg");
+    background-image: url());
     align-items: center;
     text-align: center;
     color: rgb(20, 192, 20);
