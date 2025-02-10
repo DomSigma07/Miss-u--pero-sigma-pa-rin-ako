@@ -16,12 +16,16 @@
     </form>
     <div class="container" style="margin-top: 50px">
         <?php
-         if(isset($_POST['sumbit'])){
+         if(isset($_POST['sumbit'])){ }
 
          
             if(is_numeric($_POST['number1'])&& is_numeric($_POST['number2'])){
                 
+
             
+
+            }
+
                 if($_POST['operation'] == 'plus')
                 {
                     $total = $_POST['number1'] + $_POST['number2'];
@@ -43,11 +47,20 @@
                    $total = $_POST['number1'] / $_POST['number2'];
                 }
 
-                echo "<h1>{$_POST['number1']} {$_POST['operation']} {$_POST['number2']} = {$total}</h1>";
+                echo "<h1>{$_POST['number1']{$_POST['operation']{$_POST['number2']} = {$total}</h1>";
             }
             else {
             }
         }
+            
+            } else {
+            
+        
+
+
+          }
+
+
          
          ?>
          
